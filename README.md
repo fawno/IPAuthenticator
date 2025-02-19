@@ -6,9 +6,9 @@
 [![GitHub forks](https://img.shields.io/github/forks/fawno/IPAuthenticator)](https://github.com/fawno/IPAuthenticator/network)
 [![GitHub stars](https://img.shields.io/github/stars/fawno/IPAuthenticator)](https://github.com/fawno/IPAuthenticator/stargazers)
 
-# NTLM Authenticator for CakePHP 4 Authentication plugin
+# IP Authenticator for CakePHP 4 Authentication plugin
 
-This plugin provides an NTLM Authenticator for CakePHP 4 authentication plugin.
+This plugin provides an IP Authenticator for CakePHP 4 authentication plugin.
 
 # Table of contents
 - [Requirements](#requirements)
