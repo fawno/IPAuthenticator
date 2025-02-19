@@ -37,10 +37,10 @@
 
             $auth_ips = $this->getConfig('auth', []);
             $client_ip = current(explode(',', $server['HTTP_FASTLY_CLIENT_IP'] ?? $server['HTTP_X_FORWARDED_FOR'] ?? $server['REMOTE_ADDR']));
-            $user = $auth_ips[$client_ip] ?? false;
+            $user = $auth_ips[$client_ip] ?? null;
 
             if (empty($user)) {
-                return new Result(null, Result::FAILURE_CREDENTIALS_INVALID);
+                return new Result(null, Result::FAILURE_CREDENTIALS_MISSING);
             }
 
             return new Result($user, Result::SUCCESS);
