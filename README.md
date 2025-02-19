@@ -1,5 +1,5 @@
 [![GitHub license](https://img.shields.io/github/license/fawno/IPAuthenticator)](https://github.com/fawno/IPAuthenticator/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/fawno/IPAuthenticator)](https://github.com/fawno/IPAuthenticator/releases)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/fawno/IPAuthenticator.svg)](https://github.com/fawno/IPAuthenticator/tags)
 [![Packagist](https://img.shields.io/packagist/v/fawno/ip-authentication)](https://packagist.org/packages/fawno/ip-authentication)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/fawno/ip-authentication)](https://packagist.org/packages/fawno/ip-authentication/stats)
 [![GitHub issues](https://img.shields.io/github/issues/fawno/IPAuthenticator)](https://github.com/fawno/IPAuthenticator/issues)
